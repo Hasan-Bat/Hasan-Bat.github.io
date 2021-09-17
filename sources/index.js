@@ -1,4 +1,4 @@
-const el1 = <h1>Hello React!!!</h1>;
+const el1 = <h1>Hi Guys</h1>;
        
 ReactDOM.render(el1,document.getElementById('root'));
 
@@ -9,4 +9,4 @@ class Car extends React.Component {
   }
 
   
-ReactDOM.render(<Car />, document.getElementById('car'));
+//ReactDOM.render(<Car />, document.getElementById('car'));
