@@ -4,7 +4,7 @@ ReactDOM.render(el1,document.getElementById('root'));
 
 class Car extends React.Component {
     render() {
-      return <h2>Hi, I am a Car!</h2>;
+      return <h4>Hi, I am a Car!</h4>;
     }
   }
 
