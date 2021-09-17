@@ -1,4 +1,4 @@
-const el1 = <h1>Hi Guys</h1>;
+const el1 = <h4>Hi Guys</h4>;   //ctl+shift+L  to edit multiple instances
        
 ReactDOM.render(el1,document.getElementById('root'));
 
