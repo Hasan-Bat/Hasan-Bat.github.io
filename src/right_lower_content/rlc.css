@@ -1,0 +1,6 @@
+@media only screen and (max-width:550px){
+    .rlc{
+        grid-column: 1 / span 2;
+        grid-row: 5 / span 1;
+    }
+}

@@ -1,0 +1,50 @@
+
+.footer{
+  grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width:550px){
+  .footer{
+      grid-column: 1 / span 2;
+  }
+}
+
+/*a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;}
+.grid_container{
+    color: rgb(8, 52, 90);
+    display: grid;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+  }
+a:hover, a:active {
+    background-color: red;
+  }
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;  inside border 
+  margin: 0px;  outside border
+  border: 2px solid;
+  border-color:crimson;
+  background-color:darkseagreen;
+  border-radius: 5px;
+}
+li{
+  float: left;
+  text-align: center;
+  padding: 7px;
+  margin: 5px;
+  background-color:gold;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+ to style id="maher" in css file #maher{} */

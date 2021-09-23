@@ -1,0 +1,124 @@
+
+.header{
+  grid-column: 1 / span 3;
+  
+}
+
+a:link, a:visited {
+  color:black;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: red;
+}
+@media only screen and (max-width:550px){
+  .header{
+      grid-column: 1 / span 2;
+  }
+  .navbar{
+    display: none;
+  }
+  
+}
+@media only screen and (min-width:550px){
+  .ulmenu{         /* it didnt work with className idk the hell why !!!
+                     that is when used on menu item <a className='menudropdown'> Menu</a> 
+                    as a chil inside <nav> */
+    display: none;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  color: red;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+  border: none;
+  border-radius: 10px;
+  
+}
+/*a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;}
+.grid_container{
+    color: rgb(8, 52, 90);
+    display: grid;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+  }
+a:hover, a:active {
+    background-color: red;
+  }
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;  inside border 
+  margin: 0px;  outside border
+  border: 2px solid;
+  border-color:crimson;
+  background-color:darkseagreen;
+  border-radius: 5px;
+}
+li{
+  float: left;
+  text-align: center;
+  padding: 7px;
+  margin: 5px;
+  background-color:gold;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+ to style id="maher" in css file #maher{} */

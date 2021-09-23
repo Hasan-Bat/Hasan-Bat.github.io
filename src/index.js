@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {Header} from './header/header.js';
+import Maincontent from './main_content/mc.js';
+import { Ruc } from './right_upper_content/ruc.js';
+import { Rlc } from './right_lower_content/rlc.js';
+import { Footer } from './footer/footer.js';
+import "./index.css"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+class App extends React.Component{
+    render(){
+        //Header
+        return (
+        <div className="container">
+        <Header/>
+        <Maincontent/>
+        <Ruc/>
+        <Rlc/>
+        <Footer/>
+        </div>);
+            
+        
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    }
+}
+ReactDOM.render(<App/> , document.getElementById('root'));
